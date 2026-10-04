@@ -6,7 +6,7 @@ let NavigationData = [
             {name: "Réalisations", link: "./index.html#reals"},
             {name: "Contact", link: "./index.html#contact"}
         ],
-        linkCV: "./assets/projectsImg/Aftermovie.png",
+        linkCV: "./assets/CV-BaptisteHalliez.pdf",
         cv: "Mon CV"
     }
 ]
