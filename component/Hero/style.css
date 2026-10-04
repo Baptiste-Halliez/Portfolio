@@ -57,6 +57,7 @@
         }
 
         &::after {
+          --_filter: var(--clr-filter-red);
           content: "";
           position: absolute;
           inset: 0;
