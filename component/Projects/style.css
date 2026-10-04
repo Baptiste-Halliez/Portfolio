@@ -24,7 +24,7 @@
       --_fg: var(--clr-dark-pink);
 
       font-family: var(--ff-titles);
-      font-size: var(--fs-80);
+      font-size: var(--fs-70);
       font-weight: var(--fw-400);
       text-transform: uppercase;
       color: var(--_fg);

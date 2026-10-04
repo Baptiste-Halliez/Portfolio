@@ -14,6 +14,7 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      max-width: 100%;
       font-size: var(--fs-20);
       font-weight: var(--fw-600);
 
@@ -26,7 +27,7 @@
       }
 
       .contact__mail {
-        font-size: var(--fs-50);
+        font-size: var(--fs-30);
         font-weight: var(--fw-700);
         color: var(--_fg);
       }
