@@ -30,7 +30,7 @@ let HeroData = [
         fname: "Baptiste",
         port: ", bienvenue à toi sur mon",
         folio: "Portfolio",
-        sentp2: "Sur ce portfolio tu trouveras des projets, petits ou grands. Je continue toujours d'apprendre de nouvelles choses bien sûr, en restant passionné !"
+        sentp2: "Sur ce portfolio tu trouveras des projets en lien avec la création numérique. Je continue toujours d'apprendre de nouvelles choses bien sûr, en restant passionné !"
     }
 ]
 export { HeroData };
