@@ -1,0 +1,102 @@
+.real {
+  --_bg: var(--clr-dark-brown);
+
+  padding: 2rem;
+  background-color: var(--_bg);
+  background-image: url(../../assets/bg-image/bg-image.png);
+  background-size: 100%;
+
+  .real__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    .real__title {
+      --_fg: var(--clr-dark-pink);
+
+      font-family: var(--ff-titles);
+      font-size: var(--fs-80);
+      font-weight: var(--fw-400);
+      text-transform: uppercase;
+      color: var(--_fg);
+    }
+    .real__select {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 2rem;
+
+      .real__item {
+        --_bg: var(--clr-light-red);
+
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.75rem;
+        max-width: 30rem;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px black;
+        background-color: var(--_bg);
+        transition: all 0.3s ease-in-out;
+
+        .real__link {
+          .real__img {
+            border-radius: 5px;
+          }
+        }
+
+        .real__text {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+
+          .real__name {
+            font-size: var(--fs-30);
+          }
+          .real__desc {
+            font-size: var(--fs-20);
+          }
+        }
+        &:hover {
+          translate: 0 -10px;
+        }
+      }
+    }
+    .real__btn {
+      --_fg: var(--clr-light-red);
+
+      padding: 1rem 1.5rem;
+      border: solid 3px var(--_fg);
+      border-radius: 50px;
+      font-weight: var(--fw-600);
+      color: var(--_fg);
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        --_bg-hover: var(--clr-dark-pink);
+
+        background-color: var(--_bg-hover);
+        font-weight: var(--fw-800);
+        box-shadow: 0px 0px 10px;
+      }
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .real__content {
+      text-align: left;
+
+      .real__title {
+        align-self: flex-start;
+        font-size: var(--fs-90);
+      }
+
+      .real__select {
+        flex-direction: row;
+      }
+    }
+  }
+}
