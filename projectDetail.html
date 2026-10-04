@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Détails Projet | Baptiste Halliez</title>
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <div id="content"></div>
+
+    <script type="module">
+      import { Nav } from "./component/Navigation/index.js";
+      import { NavigationData } from "./data/NavigationData.js";
+      Nav.render("#content", NavigationData[0]);
+
+      import { Detail } from "./component/Detail/index.js";
+      import { DetailsData } from "./data/DetailsData.js";
+
+      const urlParams = new URLSearchParams(window.location.search);
+      const projectCategory = urlParams.get("category");
+      const projectId = parseInt(urlParams.get("id"));
+      if (
+        DetailsData[projectCategory] &&
+        DetailsData[projectCategory][projectId]
+      ) {
+        Detail.render("#content", DetailsData[projectCategory][projectId]);
+      } else {
+        document.querySelector("#content").innerHTML =
+          '<p class="project__error">Projet introuvable.</p>';
+      }
+
+      const btnRetour = document.querySelector("#btn-retour");
+      const lastPage = document.referrer;
+
+      if (lastPage.includes("projects.html")) {
+        btnRetour.href = "projects.html";
+      } else if (lastPage.includes("index.html")) {
+        btnRetour.href = "index.html";
+      }
+
+      import { Footer } from "./component/Footer/index.js";
+      import { FooterData } from "./data/FooterData.js";
+      Footer.render("#content", FooterData[0]);
+    </script>
+  </body>
+</html>

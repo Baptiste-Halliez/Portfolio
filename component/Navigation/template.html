@@ -1,0 +1,52 @@
+<div class="nav__content">
+  <a href="{{accueil}}" class="nav__logo">
+    <img src="../../assets/icons/Logo.svg" alt="logo-BH" class="nav__icon">
+  </a>
+  <input type="checkbox" id="menu-toggle" class="sr-only" />
+  <label class="nav__burger" for="menu-toggle">
+    <svg class="burger__svg" viewBox="0 0 32 32" width="32" height="21">
+      <line
+        class="burger__line"
+        x1="2"
+        y1="7"
+        x2="30"
+        y2="7"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap=""
+        square
+      ></line>
+      <line
+        class="burger__line"
+        x1="2"
+        y1="16"
+        x2="30"
+        y2="16"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap=""
+        square
+      ></line>
+      <line
+        class="burger__line"
+        x1="2"
+        y1="25"
+        x2="30"
+        y2="25"
+        stroke="currentColor"
+        stroke-width="3"
+        stroke-linecap=""
+        square
+      ></line>
+    </svg>
+  </label>
+  <nav class="navbar">
+    <div class="navbar__content">
+      <ul class="navbar__list">
+        {{menuItems}}
+      </ul>
+      <a href="{{linkCV}}" download="CV-BaptisteHalliez.pdf" class="nav__cv"
+        >{{CV}}</a>
+    </div>
+  </nav>
+</div>

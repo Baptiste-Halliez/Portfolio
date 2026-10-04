@@ -1,0 +1,47 @@
+.skill {
+  padding: 3rem;
+
+  .skill__content {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+    .skill__text {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+
+      .skill__title {
+        --_fg: var(--clr-dark-pink);
+        font-family: var(--ff-titles);
+        font-size: var(--fs-80);
+        font-weight: var(--fw-400);
+        text-transform: uppercase;
+        color: var(--_fg);
+      }
+
+      .skill__sub {
+        font-size: var(--fs-30);
+        font-weight: var(--fw-700);
+      }
+    }
+  }
+
+  @media (min-width: 40rem) {
+    .skill__content {
+      .skill__text {
+        max-width: 50rem;
+        text-align: left;
+
+        .skill__title {
+          font-size: var(--fs-90);
+        }
+
+        .skill__sub {
+          font-size: var(--fs-50);
+        }
+      }
+    }
+  }
+}
