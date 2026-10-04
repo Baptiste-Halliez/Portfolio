@@ -1,0 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-primary, sans-serif);
+  color: var(--fg-main);
+  background-color: var(--bg-main);
+}
