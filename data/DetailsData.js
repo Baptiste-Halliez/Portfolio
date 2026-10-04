@@ -3,7 +3,7 @@ let DetailsData = {
         {
             id: "1",
             title: "Pochette d'EP",
-            projetImg: "./assets/projectsIMG/CoverEp.png",
+            projetImg: "./assets/projectsImg/CoverEp.png",
             projetDesc: "Description",
             description: "Création graphique d'une pochette d'EP (Extended Play) fictif, ayant comme thème la dualité qu'oppose deux éléments en apparence similaire sous des morceaux doux, joués principalement à la guitare acoustique.",
             projetConc: "Concept",
@@ -56,7 +56,7 @@ let DetailsData = {
         {
             id: "1",
             title: "Aftermovie Surfskate",
-            projetImg: "./assets/projectsIMG/Aftermovie.png",
+            projetImg: "./assets/projectsImg/Aftermovie.png",
             projetDesc: "Description",
             description: "Réalisation d'un aftermovie d'une durée de 30 secondes à 1 minute pour l'événement Objectif Surfskate 87, événement étendu sur deux jours pour partager et échanger des moments ensemble autour du surfskate. La vidéo devait faire apparaître plusieurs infos clés telles que le nom du festival, les partenaires, un call-to-action, etc., puis devait être sur musique libre de droit.",
             projetConc: "Concept",
@@ -75,7 +75,7 @@ let DetailsData = {
         {
             id: "1",
             title: "Retrospective Cinéma",
-            projetImg: "./assets/projectsIMG/Retrolido.png",
+            projetImg: "./assets/projectsImg/Retrolido.png",
             projetDesc: "Description",
             description: "Conception d'une landing page pour le cinéma le Lido ayant organisé 5 semaines rétrospectives thématiques autour de films cultes. Chaque rétrospectives est dédié à un univers précis. J'ai choisi l'univers de la science-fiction.",
             projetConc: "Concept",

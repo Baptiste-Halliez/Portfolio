@@ -3,7 +3,7 @@ let RealisationData = [
         title: "Réalisations",
         select: [
             {
-                link: "/projectDetail.html?category=graphic&id=0",
+                link: "./projectDetail.html?category=graphic&id=0",
                 img: "./assets/projectsThumbnail/CoverEp.png",
                 alt: "EP",
                 name: "Pochette d'EP",
