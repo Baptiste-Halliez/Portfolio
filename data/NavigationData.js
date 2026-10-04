@@ -1,6 +1,7 @@
 let NavigationData = [
     {
         accueil: "index.html",
+        logo: "./assets/icons/Logo.svg",
         menus: [
             {name: "Compétences", link: "./index.html#skills"},
             {name: "Réalisations", link: "./index.html#reals"},
