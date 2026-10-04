@@ -42,7 +42,11 @@
   }
 
   @media (min-width: 40rem) {
+    margin: 0 auto;
     min-height: 31rem;
+    max-width: 85rem;
+    width: 100%;
+    
     .skillcard--vs {
       position: absolute;
       left: 3%;
