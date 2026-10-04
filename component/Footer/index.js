@@ -6,6 +6,7 @@ let Footer = {};
 Footer.format = function(data, css=""){
     let html = template;
     html = html.replaceAll("{{cssClass}}", css);
+    html = html.replaceAll("{{logo}}", data.logo);
     html = html.replaceAll("{{right}}", data.right);
     return html;
 }
