@@ -148,7 +148,8 @@
 
       .projects__select {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-evenly;
         gap: 2rem;
         width: 100%;
       }
