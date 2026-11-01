@@ -20,7 +20,7 @@ let RealisationData = [
                 link: "./projectDetail.html?category=uxui&id=0",
                 img: "./assets/projectsThumbnail/Retrolido.png",
                 alt: "Ciné",
-                name: "Retrospective du Ludo",
+                name: "Retrospective du Lido",
                 desc: "Conception d'une landing page promotionnelle pour le cinéma Le Lido"
             }
         ],

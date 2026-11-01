@@ -74,6 +74,7 @@
       border-radius: 50px;
       font-weight: var(--fw-600);
       color: var(--_fg);
+      background-color: rgba(0, 0, 0, 0.5);
       transition: all 0.3s ease-in-out;
       &:hover {
         --_bg-hover: var(--clr-dark-pink);
