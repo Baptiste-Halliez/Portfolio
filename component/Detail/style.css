@@ -98,14 +98,19 @@
         justify-content: space-between;
         gap: 2rem;
         padding: 2rem;
+        max-width: 70rem;
 
         .detail__img {
           width: 40rem;
         }
 
         .detail__text {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+
           .detail__desc {
-            max-width: 20rem;
+            width: inherit;
           }
         }
       }

@@ -28,14 +28,6 @@ let ProjectsData = [
                category: "Graphisme"
             },
             {
-               link: "./projectDetail.html?category=audiovisuel&id=0",
-               img: "./assets/projectsThumbnail/Aftermovie.png",
-               alt: "Aftermovie",
-               name: "Aftermovie Surfskate",
-               desc: "Réalisation d'un aftermovie pour l'événement Objectif Surfskate 87.",
-               category: "Audiovisuel"
-            },
-            {
                link: "./projectDetail.html?category=uxui&id=0",
                img: "./assets/projectsThumbnail/Retrolido.png",
                alt: "RétroLido",
@@ -49,8 +41,25 @@ let ProjectsData = [
                alt: "EmberHouse",
                name: "Ember House Restaurant",
                desc: "Conception d'une landing page pour le restaurant Ember House.",
-               category: "UX /UI"
+               category: "UX/UI"
             },
+            {
+               link: "./projectDetail.html?category=uxui&id=2",
+               img: "./assets/projectsThumbnail/SplatmeetMinia.png",
+               alt: "Splatmeet",
+               name: "Application Splatmeet",
+               desc: "Création d'un prototype d'une application sur l'univers de Splatoon.",
+               category: "UX/UI"
+            },
+            {
+               link: "./projectDetail.html?category=audiovisuel&id=0",
+               img: "./assets/projectsThumbnail/Aftermovie.png",
+               alt: "Aftermovie",
+               name: "Aftermovie Surfskate",
+               desc: "Réalisation d'un aftermovie pour l'événement Objectif Surfskate 87.",
+               category: "Audiovisuel"
+            }
+            
         ]
     }
 ]
