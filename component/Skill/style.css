@@ -1,5 +1,5 @@
 .skill {
-  padding: 3rem;
+  padding: 3rem 1.5rem;
 
   .skill__content {
     display: flex;
@@ -29,19 +29,22 @@
   }
 
   @media (min-width: 40rem) {
-    .skill__content {
-      .skill__text {
-        max-width: 50rem;
-        text-align: left;
+      padding: 3rem;
 
-        .skill__title {
-          font-size: var(--fs-90);
-        }
+      .skill__content {
+        .skill__text {
+          max-width: 50rem;
+          text-align: left;
 
-        .skill__sub {
-          font-size: var(--fs-50);
+          .skill__title {
+            font-size: var(--fs-90);
+          }
+
+          .skill__sub {
+            font-size: var(--fs-50);
+          }
         }
       }
-    }
+    
   }
 }

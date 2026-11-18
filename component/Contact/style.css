@@ -1,5 +1,5 @@
 .contact {
-  padding: 2rem;
+  padding: 2rem 1.5rem 1rem;
 
   .contact__content {
     display: flex;
@@ -64,6 +64,8 @@
   }
 
   @media (min-width: 40rem) {
+    padding: 3rem;
+    
     .contact__content {
       .contact__text {
         align-items: center;

@@ -6,12 +6,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   position: relative;
 
   .skillcard {
-    max-width: 18rem;
-    min-height: 24rem;
+    max-width: 16rem;
     border-radius: 12px;
     padding: 2rem;
     color: var(--_fg);
@@ -37,6 +36,7 @@
 
   .skillcard--light {
     --_bg: var(--clr-brown);
+    gap: 3rem;
     background-color: var(--_bg);
     rotate: -15deg;
   }
@@ -46,7 +46,12 @@
     min-height: 31rem;
     max-width: 85rem;
     width: 100%;
-    
+
+    .skillcard {
+      max-width: 18rem;
+      min-height: 24rem;
+    }
+
     .skillcard--vs {
       position: absolute;
       left: 3%;
